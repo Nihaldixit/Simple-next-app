@@ -8,6 +8,7 @@ import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import UseCases from "@/components/UseCases";
 import FAQSection from "@/components/FAQSection";
+import WaveGoodbye from "@/components/WaveGoodbye";
 
 
 
@@ -15,7 +16,7 @@ export default function Home() {
   return (
     <>
     <Navbar />
-    <Herosection></Herosection><CommandCenter /><ExhibitorHub /><Testimonials /><UseCases /><ContactSection /><FAQSection /><Footer />
+    <Herosection></Herosection><CommandCenter /><ExhibitorHub /><WaveGoodbye/><Testimonials /><UseCases /><ContactSection /><FAQSection /><Footer />
     
     </>
   );
