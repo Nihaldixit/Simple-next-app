@@ -56,7 +56,7 @@ export default function WaveGoodbye() {
                   className={`absolute left-0 whitespace-nowrap transition-all duration-700 ease-in-out
                     ${
                       offset === 0
-                        ? "text-blue-500 italic font-medium"
+                        ? "text-purple-500 italic font-medium"
                         : "text-neutral-300"
                     }
                   `}
